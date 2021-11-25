@@ -21,6 +21,14 @@ ul {
 a {
   text-decoration: none; }
 
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; }
+
 .l-flex {
   display: flex; }
 
@@ -65,17 +73,85 @@ a {
 
 .button-secondary {
   border: 0;
-  background: gray; }
+  background: #444857; }
 
 .header-buttons {
   padding: 8px; }
 
 .header-buttons .button {
   margin-right: 8px;
-  min-width: 100%; }
+  min-width: 100px; }
+
+.header-buttons .button:hover {
+  opacity: 0.5; }
+
+.hero-footer .button {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.hero-footer .button:hover {
+  opacity: 0.5; }
+
+.code-card {
+  font-size: 13px;
+  margin-bottom: 8px;
+  background: #1d1e22;
+  border-radius: 6px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px; }
+
+.code-card-html {
+  position: relative;
+  left: 170px;
+  bottom: 20px; }
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px; }
+
+.code-card-js {
+  position: relative;
+  left: 170px;
+  bottom: 20px; }
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between; }
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0; }
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px; }
+
+.code-card-body p {
+  margin: 0; }
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
 
 .hero {
-  margin: 36px; }
+  margin: 32px; }
 
 .hero-logo {
   font-size: 36px; }
@@ -89,7 +165,29 @@ a {
 
 .hero-body-description-title {
   margin: 0;
-  font-weight: 900; }
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px; }
+
+.hero-body-description-text {
+  font-size: 1.1rem; }
+
+.hero-footer {
+  font-size: 20px;
+  font-weight: 500; }
+
+.hero-body-image {
+  width: 50%; }
+
+.hero-body-image-card {
+  margin: 16px auto;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+  height: 410px;
+  width: 495px;
+  border-radius: 6px; }
+
+.l-section {
+  margin: 32px 0; }
 
 .l-main {
   width: 100%; }
@@ -160,3 +258,21 @@ a {
 
 .text-weak {
   color: #b7bbc8; }
+
+.text-bold {
+  font-weight: bold; }
+
+.hilight-orange {
+  color: #a88038; }
+
+.hilight-beige {
+  color: #e1ca72; }
+
+.hilight-green {
+  color: #74b087; }
+
+.hilight-purple {
+  color: #9f8198; }
+
+.hilight-blue {
+  color: #7a99ad; }
