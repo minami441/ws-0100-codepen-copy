@@ -92,6 +92,24 @@ h4 {
 .hero-footer .button:hover {
   opacity: 0.5; }
 
+.card-icon {
+  background: black;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  left: 16px;
+  top: 32px;
+  border-radius: 5px;
+  text-align: center; }
+
+.card-icon .fa {
+  font-size: 48px;
+  position: relative;
+  top: 8px; }
+
+.card-footer {
+  margin: 10px 0; }
+
 .code-card {
   font-size: 13px;
   margin-bottom: 8px;
@@ -149,6 +167,21 @@ h4 {
     opacity: 1; }
   100% {
     opacity: 1; } }
+
+.features {
+  justify-content: center; }
+
+.features .card {
+  height: 340px; }
+
+.features-card {
+  margin: 2rem 1rem; }
+
+.card {
+  padding: 2rem;
+  width: 340px;
+  background: #2c303a;
+  border-radius: 6px; }
 
 .hero {
   margin: 32px; }
