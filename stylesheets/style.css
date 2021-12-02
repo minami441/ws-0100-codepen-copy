@@ -38,6 +38,25 @@ h4 {
 .l-flex-wrap {
   flex-wrap: wrap; }
 
+.l-main {
+  width: 100%; }
+
+.l-sidebar {
+  min-width: 188px; }
+
+.l-header {
+  display: flex;
+  align-items: center; }
+
+.l-section {
+  margin: 32px 0; }
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
+
 .badge {
   display: inline-block;
   background: #ffdd40;
@@ -110,6 +129,15 @@ h4 {
 .card-footer {
   margin: 10px 0; }
 
+.card-description {
+  color: #b7bbc8; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  background: #2c303a;
+  border-radius: 6px; }
+
 .code-card {
   font-size: 13px;
   margin-bottom: 8px;
@@ -149,12 +177,6 @@ h4 {
 .code-card-body p {
   margin: 0; }
 
-.l-margin-left-2rem {
-  margin-left: 2rem !important; }
-
-.l-margin-left-4rem {
-  margin-left: 4rem !important; }
-
 .cursor {
   animation: blink 1s infinite; }
 
@@ -176,12 +198,6 @@ h4 {
 
 .features-card {
   margin: 2rem 1rem; }
-
-.card {
-  padding: 2rem;
-  width: 340px;
-  background: #2c303a;
-  border-radius: 6px; }
 
 .hero {
   margin: 32px; }
@@ -218,16 +234,6 @@ h4 {
   height: 410px;
   width: 495px;
   border-radius: 6px; }
-
-.l-section {
-  margin: 32px 0; }
-
-.l-main {
-  width: 100%; }
-
-.l-header {
-  display: flex;
-  align-items: center; }
 
 .search-form {
   padding: 8px;
@@ -276,9 +282,6 @@ h4 {
 
 .sidebar-menu-list li a:hover {
   background: black; }
-
-.l-sidebar {
-  min-width: 188px; }
 
 .text-warning {
   color: #ffdd40; }
