@@ -29,6 +29,10 @@ h4 {
   margin-inline-end: 0px;
   font-weight: bold; }
 
+.button:hover {
+  opacity: .4;
+  cursor: pointer; }
+
 .l-flex {
   display: flex; }
 
@@ -98,15 +102,9 @@ h4 {
   margin-right: 8px;
   min-width: 100px; }
 
-.header-buttons .button:hover {
-  opacity: 0.5; }
-
 .hero-footer .button {
   padding-left: 30px;
   padding-right: 30px; }
-
-.hero-footer .button:hover {
-  opacity: 0.5; }
 
 .card-icon {
   background: black;
@@ -198,6 +196,10 @@ h4 {
   margin-right: 4px;
   padding: 2px 4px; }
 
+.product-item-list-footer {
+  display: flex;
+  justify-content: center; }
+
 .code-card {
   font-size: 13px;
   margin-bottom: 8px;
@@ -258,6 +260,22 @@ h4 {
 
 .features-card {
   margin: 2rem 1rem; }
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black; }
+
+.footer-logo {
+  font-size: 2rem; }
+
+.footer-links h4 {
+  margin: 2px;
+  margin-right: 1rem; }
+
+.footer-links li {
+  margin-right: 1rem; }
 
 .hero {
   margin: 32px; }
