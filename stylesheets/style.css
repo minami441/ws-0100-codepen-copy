@@ -29,10 +29,6 @@ h4 {
   margin-inline-end: 0px;
   font-weight: bold; }
 
-.button:hover {
-  opacity: .4;
-  cursor: pointer; }
-
 .l-flex {
   display: flex; }
 
@@ -95,16 +91,9 @@ h4 {
   border: 0;
   background: #444857; }
 
-.header-buttons {
-  padding: 8px; }
-
-.header-buttons .button {
-  margin-right: 8px;
-  min-width: 100px; }
-
-.hero-footer .button {
-  padding-left: 30px;
-  padding-right: 30px; }
+.button:hover {
+  opacity: .4;
+  cursor: pointer; }
 
 .card-icon {
   background: black;
@@ -306,12 +295,23 @@ h4 {
 .hero-body-image {
   width: 50%; }
 
+.hero-footer .button {
+  padding-left: 30px;
+  padding-right: 30px; }
+
 .hero-body-image-card {
   margin: 16px auto;
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
   height: 410px;
   width: 495px;
   border-radius: 6px; }
+
+.header-buttons {
+  padding: 8px; }
+
+.header-buttons .button {
+  margin-right: 8px;
+  min-width: 100px; }
 
 .search-form {
   padding: 8px;
@@ -360,6 +360,10 @@ h4 {
 
 .sidebar-menu-list li a:hover {
   background: black; }
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none; } }
 
 .text-warning {
   color: #ffdd40; }
